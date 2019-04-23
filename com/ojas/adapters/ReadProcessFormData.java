@@ -70,7 +70,7 @@ public class ReadProcessFormData {
 			e.printStackTrace();
 		}
 	}
-
+//main method
 	public static void main(String[] args) throws tcColumnNotFoundException {
 
 		ReadProcessFormData form = new ReadProcessFormData();
