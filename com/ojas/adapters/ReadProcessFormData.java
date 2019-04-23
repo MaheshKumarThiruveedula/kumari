@@ -42,8 +42,8 @@ public class ReadProcessFormData {
 		return client;
 
 	}
-//processFormData()
-	public void ProcessFormData() throws tcColumnNotFoundException {
+//processFormData() 
+	public void processFormData() throws tcColumnNotFoundException {
 		OIMClient client = new ReadProcessFormData().loginWithCustomEnv();
 			//Get the services from  tcFormInstanceOperationsIntf Interface
 		tcFormInstanceOperationsIntf formOperationsIntf = client
